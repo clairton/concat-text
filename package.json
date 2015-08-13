@@ -1,11 +1,12 @@
 {
   "name": "concat-text",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
+  "repository": "git@github.com:clairton/concat-text.git",
   "scripts": {
     "start": "ember server",
     "build": "ember build",
