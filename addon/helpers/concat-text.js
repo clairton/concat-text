@@ -10,4 +10,4 @@ export function concatText() {
   return string;
 }
 
-export default Ember.Helper.helper(concatText);
+export default Ember.HTMLBars.makeBoundHelper(concatText);
