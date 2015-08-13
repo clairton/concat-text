@@ -17,6 +17,7 @@
     "find",
     "findWithAssert",
     "wait",
+    "module",
     "DS",
     "andThen",
     "currentURL",
