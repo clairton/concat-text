@@ -1,13 +1,13 @@
 import Ember from 'ember';
 
-export function concatText() {
+export function concatText(params) {
   var string = '';
   //the last is options hash
-  const length = arguments.length - 1;
+  const length = params.length;
   for(var i = 0; i < length; i++){
-    string += arguments[i];
+    string += params[i];
   }
   return string;
 }
 
-export default Ember.Handlebars.makeBoundHelper(concatText);
+export default Ember.Helper.helper(concatText);
