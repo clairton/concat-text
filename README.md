@@ -10,6 +10,8 @@
  Add in your package.json
  
  ```javascript
-  "concat-text": "clairton/concat-text#v0.2.0"
+  "concat-text": "0.2.0"
  ```
+ 
+ For ember >= 1.13.0, look at http://emberjs.com/api/classes/Ember.Templates.helpers.html#method_concat
 
